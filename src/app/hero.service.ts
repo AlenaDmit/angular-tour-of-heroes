@@ -10,7 +10,7 @@ import { Observable, of } from 'rxjs';
 export class HeroService {
 
   getHeroes(): Observable<Hero[]> {
-    return of (HEROES);
+    return of(HEROES);
   }
 
   constructor() { }
